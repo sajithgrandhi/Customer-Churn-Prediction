@@ -1,8 +1,9 @@
 # Customer Churn Prediction
 
-This project predicts customer churn using Machine Learning.
+This project predicts customer churn using Machine Learning.  
+It analyzes telecom customer data and builds a Logistic Regression model to predict whether a customer will leave the service.
 
-## Tools Used
+## Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -10,21 +11,36 @@ This project predicts customer churn using Machine Learning.
 - Matplotlib
 - Seaborn
 
-## Project Steps
+## Project Workflow
 1. Data Cleaning
 2. Data Preprocessing
 3. Machine Learning Model
 4. Model Evaluation
 5. Data Visualization
 
-## Model Used
+## Model
 Logistic Regression
 
 ## Results
-The model predicts whether a telecom customer will churn or stay.
+The model predicts whether a telecom customer will churn based on service usage and billing features.
+
+---
 
 ## Visualizations
-Customer Churn Distribution  
-Churn by Contract Type  
-Monthly Charges vs Churn  
-Confusion Matrix
+
+### Churn Distribution
+![Churn Distribution](churn_distribution.png)
+
+### Churn by Contract Type
+![Churn by Contract](churn_by_contract.png)
+
+### Monthly Charges vs Churn
+![Monthly Charges vs Churn](monthly_charges_vs_churn.png)
+
+### Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+---
+
+## Author
+Sajith
